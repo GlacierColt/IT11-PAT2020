@@ -6,7 +6,7 @@ uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, ComCtrls, StdCtrls,
   jpeg, ExtCtrls, Buttons, OleCtrls, SHDocVw, pngimage, Grids, DBGrids, MicroHospitalDataModule, Math,
-  Spin;
+  Spin, Data.DB;
 
 type
   TMicroHospital = class(TForm)

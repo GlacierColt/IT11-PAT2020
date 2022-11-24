@@ -842,7 +842,7 @@ object MicroHospital: TMicroHospital
     Top = 8
     Width = 713
     Height = 498
-    ActivePage = tbsAdmin
+    ActivePage = tbshome
     Style = tsButtons
     TabOrder = 0
     object tbshome: TTabSheet
@@ -4794,7 +4794,7 @@ object MicroHospital: TMicroHospital
           ''
           'Example'
           ''
-          'Name and surname: Daniel Jackson'
+          'Name and surname: Marinda Smith'
           'Room: G01'
           'Bed Number: 3'
           'Patient number: 9'
@@ -4802,6 +4802,7 @@ object MicroHospital: TMicroHospital
         ParentFont = False
         ReadOnly = True
         TabOrder = 5
+        Zoom = 100
       end
     end
     object tbsnews: TTabSheet
@@ -5108,6 +5109,7 @@ object MicroHospital: TMicroHospital
             ReadOnly = True
             ScrollBars = ssBoth
             TabOrder = 0
+            Zoom = 100
           end
           object pnladmin: TPanel
             Left = 531
@@ -5288,9 +5290,8 @@ object MicroHospital: TMicroHospital
     Top = 49
     Width = 98
     Height = 35
-    DoubleBuffered = True
     Kind = bkClose
-    ParentDoubleBuffered = False
+    NumGlyphs = 2
     TabOrder = 2
   end
 end
